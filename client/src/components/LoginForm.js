@@ -16,6 +16,7 @@ const LoginForm = () => {
   const handleInputChange = (event) => {
     const { name, value } = event.target;
     setUserFormData({ ...userFormData, [name]: value });
+    console.log(userFormData)
   };
 
   const handleFormSubmit = async (event) => {
@@ -32,6 +33,7 @@ const LoginForm = () => {
       const { data } = await login({
         variables: {...userFormData}
       })
+      
 
       Auth.login(data.login.token);
     } catch (err) {
