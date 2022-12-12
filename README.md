@@ -5,7 +5,7 @@
 This is a full MERN stack application that uses graphql to allow a user  
 to search for, and save favorite books from the google books API.
 
-[Link to deployed heroku app](https://powerful-stream-89344.herokuapp.com/)
+[Link to deployed heroku app](https://protected-cove-39181.herokuapp.com/)
 
 ## Description
 
